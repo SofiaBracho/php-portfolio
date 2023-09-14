@@ -1,8 +1,8 @@
 <?php
     session_start();
     if($_POST){
-        if($_POST["usuario"]=="sofiab" && $_POST["contraseña"]=="011235"){
-            $_SESSION["usuario"]="sofiab";
+        if($_POST["usuario"]=="admin" && $_POST["contraseña"]=="011235"){
+            $_SESSION["usuario"]="admin";
             $_SESSION["login"]=true;
 
             header('Location:index.php');
